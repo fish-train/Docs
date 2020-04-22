@@ -1,6 +1,0 @@
-Скрипт для локальной публикации сайта
-=====================================
-
-.. literalinclude:: make_site.py
-  :language: python
-  :linenos:
