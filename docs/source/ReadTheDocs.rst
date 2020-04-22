@@ -18,7 +18,7 @@
    .. image:: _static/my_projects.png
       :align: center
 
-#. Нажмите на кнопку **Импортировать проект**.
+#. Нажмите на кнопку **Импортировать проект**. Подробнее см. `Importing Your Documentation <https://docs.readthedocs.io/en/stable/intro/import-guide.html>`_ 
 #. Выберите репозиторий с проектом.
 #. Проверьте детали проекта и нажмите на кнопку **Вперед**:
 
@@ -30,4 +30,7 @@
    .. image:: _static/extra.png
       :align: center
 
-#. аа
+#. Автоматически запустится сборка проекта:
+   
+   .. image:: _static/building.png
+      :align: center
