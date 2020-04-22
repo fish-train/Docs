@@ -1,0 +1,10 @@
+Это пример
+==========
+
+1. Установите sphinx: pip install sphinx
+
+.. image:: _static/sphinxheader.png
+
+ddddd
+=====
+

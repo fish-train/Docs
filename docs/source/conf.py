@@ -28,6 +28,7 @@ author = 'fish-train'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -53,7 +54,64 @@ exclude_patterns = []
 #
 html_theme = 'alabaster'
 
+html_theme_options = {
+    'fixed_sidebar': 'true',
+    'sidebar_width': '270px',
+    'github_button': 'false',
+    'show_related': 'false',
+    'caption_font_family': 'Ubuntu',
+    'code_font_family': 'Ubuntu Mono',
+    'font_family': 'Ubuntu',
+    'head_font_family': 'Ubuntu',
+}
+
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+# -- Options for LaTeX output ------------------------------------------------
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+#'papersize': 'letterpaper',
+
+# The font size ('10pt', '11pt' or '12pt').
+'pointsize': '12pt',
+
+# Additional stuff for the LaTeX preamble.
+# 'preamble': '\\usepackage[utf8]{inputenc}',
+# 'babel': '\\usepackage[russian]{babel}',
+# 'cmappkg': '\\usepackage{cmap}',
+# 'fontenc': '\usepackage[T1,T2A]{fontenc}',
+# 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
+}
+
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title,
+#  author, documentclass [howto, manual, or own class]).
+# latex_documents = [
+#   ('index', 'Sphinx.tex', u'Генератор документации Sphinx Documentation',
+#    u'Дмитрий Мажарцев', 'manual'),
+# ]
+
+# The name of an image file (relative to this directory) to place at the top of
+# the title page.
+#latex_logo = None
+
+# For "manual" documents, if this is true, then toplevel headings are parts,
+# not chapters.
+#latex_use_parts = False
+
+# If true, show page references after internal links.
+#latex_show_pagerefs = False
+
+# If true, show URL addresses after external links.
+#latex_show_urls = False
+
+# Documents to append as an appendix to all manuals.
+#latex_appendices = []
+
+# If false, no module index is generated.
+#latex_domain_indices = True

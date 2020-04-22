@@ -1,0 +1,6 @@
+Пример кода
+===========
+
+.. literalinclude:: make_site.py
+  :language: python
+  :linenos:
