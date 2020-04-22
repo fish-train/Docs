@@ -34,8 +34,8 @@
   :language: python
   :linenos:
 
-Ссылки о настройке сборки в HTML
-================================
+Ссылки на дополнительные материалы
+==================================
 
 * `Генерация в формат HTML <https://sphinx-ru.readthedocs.io/ru/latest/sphinx.html#html>`_ 
 * `HTML <https://www.sphinx-doc.org/en/master/usage/theming.html>`_ 
