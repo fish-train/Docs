@@ -85,7 +85,7 @@ sublime-rst-completion
 | ``quote``               | Quotation (epigraph directive) |                   |
 +-------------------------+--------------------------------+-------------------+
 
-Доуступны следующие блоки примечаний и предупреждений:
+Доступны блоки примечаний и предупреждений:
 
 * attention
 * caution
@@ -98,8 +98,6 @@ sublime-rst-completion
 * warning
 
 `Страница плагина sublime-rst-completion`_ 
-
-
 
 .. _Страница плагина sublime-rst-completion: https://github.com/mgaitan/sublime-rst-completion
 

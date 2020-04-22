@@ -19,8 +19,8 @@
 
 Выходные файлы размещаются в папке ``build/latex/``. 
 
-Ссылки о настройке сборки в PDF
-===============================
+Ссылки на дополнительные материалы
+==================================
 
 * `Options for LaTeX output <https://www.sphinx-doc.org/en/master/usage/configuration.html#latex-options>`_ 
 * `LaTeX customization <https://www.sphinx-doc.org/en/master/latex.html>`_ 
