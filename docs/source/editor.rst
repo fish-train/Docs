@@ -101,11 +101,11 @@ sublime-rst-completion
 
 .. _Страница плагина sublime-rst-completion: https://github.com/mgaitan/sublime-rst-completion
 
-terminalus
+terminus
 ----------
 
 Встроенный терминал.
 
-`Страница плагина terminalus`_ 
+`Страница плагина terminus`_ 
 
-.. _Страница плагина terminalus: https://github.com/randy3k/Terminus
+.. _Страница плагина terminus: https://github.com/randy3k/Terminus
