@@ -32,8 +32,9 @@ _____________
    start
    editor
    html
-   pdf
    docx
+   pdf_word
+   pdf
    ReadTheDocs
 
 Indices and tables

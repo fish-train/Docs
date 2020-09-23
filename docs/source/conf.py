@@ -132,3 +132,17 @@ latex_documents = [
 
 # If false, no module index is generated.
 #latex_domain_indices = True
+
+# -- Options for DOCX output ------------------------------------------------
+
+docx_documents = [
+('index', 'sphinx-test.docx', {
+     'title': 'Sphinx и reStructuredText. Учебный проект',
+     'creator': 'fish-train',
+     'companyEmail': 'https://github.com/fish-train',
+ }, True),
+]
+docx_style = 'style.docx'
+docx_pagebreak_before_section = 1
+docx_pagebreak_after_table_of_contents = 0
+docx_update_fields = True
