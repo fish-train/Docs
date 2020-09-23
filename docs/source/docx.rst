@@ -10,13 +10,12 @@
 #. Установите `Расширение Docxbuilder <https://github.com/amedama41/docxbuilder>`_.
 #. В файле conf.py добавьте:
 
-   .. code-block:: 
+   .. code-block:: bash
 
        extensions = ['docxbuilder']
-
 #. В файле conf.py добавьте настройки документа:
 
-   .. code-block:: 
+   .. code-block:: python
 
        docx_documents = [
        ('index', 'docxbuilder.docx', {
