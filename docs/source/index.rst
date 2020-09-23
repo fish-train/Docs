@@ -33,6 +33,7 @@ _____________
    editor
    html
    pdf
+   docx
    ReadTheDocs
 
 Indices and tables
