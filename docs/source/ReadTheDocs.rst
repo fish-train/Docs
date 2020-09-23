@@ -16,14 +16,14 @@
      b. В файл ``conf.py`` добавьте настройку: ``master_doc = 'index'``.
 
 #. Зарегистрируйтесь на сайте `Read the Docs <https://readthedocs.org>`_.
-#. Свяжите свой аккаунт GitHub с Read the Docs. Подробнее см. `Connecting Your Account <https://docs.readthedocs.io/en/stable/connected-accounts.html>`_ 
+#. Свяжите свой аккаунт GitHub с Read the Docs. Подробнее см. `Connecting Your Account <https://docs.readthedocs.io/en/stable/connected-accounts.html>`_.
 
 #. Откройте раздел **Мои проекты** на Read the Docs.
 
    .. image:: _static/my_projects.png
       :align: center
 
-#. Нажмите на кнопку **Импортировать проект**. Подробнее см. `Importing Your Documentation <https://docs.readthedocs.io/en/stable/intro/import-guide.html>`_ 
+#. Нажмите на кнопку **Импортировать проект**. Подробнее см. `Importing Your Documentation <https://docs.readthedocs.io/en/stable/intro/import-guide.html>`_.
 #. Выберите репозиторий с проектом.
 #. Проверьте детали проекта и нажмите на кнопку **Вперед**:
 

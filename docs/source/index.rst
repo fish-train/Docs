@@ -32,6 +32,8 @@ _____________
    start
    editor
    html
+   docx
+   pdf_word
    pdf
    ReadTheDocs
 

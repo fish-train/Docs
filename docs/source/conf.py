@@ -28,7 +28,8 @@ author = 'fish-train'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    'docxbuilder'
 ]
 
 master_doc = 'index'
@@ -77,10 +78,20 @@ html_static_path = ['_static']
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
 'pointsize': '12pt',
+
+'sphinxsetup': '',
+'passoptionstopackages': r'\PassOptionsToPackage{table}{xcolor}',
+'preamble': r'''
+    \begin{titlepage}
+    \noindent \Huge Example title \par
+    \sphinxlogo
+    \end{titlepage}
+    '''
+
 
 # Additional stuff for the LaTeX preamble.
 # 'preamble': '\\usepackage[utf8]{inputenc}',
@@ -90,13 +101,17 @@ latex_elements = {
 # 'utf8extra':'\\DeclareUnicodeCharacter{00A0}{\\nobreakspace}',
 }
 
+
+
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-# latex_documents = [
-#   ('index', 'Sphinx.tex', u'Генератор документации Sphinx Documentation',
-#    u'Дмитрий Мажарцев', 'manual'),
-# ]
+
+
+latex_documents = [
+   ('index', 'sphinx-test.tex', u'Sphinx и reStructuredText. Учебный проект',
+    u'fish-train', 'manual'),
+]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -117,3 +132,17 @@ latex_elements = {
 
 # If false, no module index is generated.
 #latex_domain_indices = True
+
+# -- Options for DOCX output ------------------------------------------------
+
+docx_documents = [
+('index', 'sphinx-test.docx', {
+     'title': 'Sphinx и reStructuredText. Учебный проект',
+     'creator': 'fish-train',
+     'companyEmail': 'https://github.com/fish-train',
+ }, True),
+]
+docx_style = 'style.docx'
+docx_pagebreak_before_section = 1
+docx_pagebreak_after_table_of_contents = 0
+docx_update_fields = True
