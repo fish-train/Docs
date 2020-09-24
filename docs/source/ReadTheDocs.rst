@@ -8,12 +8,16 @@
 
 #. Подготовьте проект:
 
-     a. Убедитесь, что файлы проекта находятся в папке ``docs``:
+     a. Убедитесь, что файлы проекта находятся в папке docs:
 
         .. image:: _static/docs_folder.png
            :align: center
 
-     b. В файл ``conf.py`` добавьте настройку: ``master_doc = 'index'``.
+     b. В файл conf.py добавьте настройку:
+
+        .. code-block:: python
+        
+            master_doc = 'index'
 
 #. Зарегистрируйтесь на сайте `Read the Docs <https://readthedocs.org>`_.
 #. Свяжите свой аккаунт GitHub с Read the Docs. Подробнее см. `Connecting Your Account <https://docs.readthedocs.io/en/stable/connected-accounts.html>`_.
